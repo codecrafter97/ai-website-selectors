@@ -1,4 +1,4 @@
-"name","url","selector","sendMode","enterKey","copySelectors","hoverCopySelectors","formCopySelector","clickSelector","skipVerification "
+"name","url","selector","sendMode","enterKey","copySelectors","hoverCopySelectors","formCopySelector","clickSelector","skipVerification"
 "ChatGPT","https://chatgpt.com/","#prompt-textarea","pressKey","Enter","[data-testid='copy-turn-action-button']","","","",""
 "Google AI Studio","https://aistudio.google.com/prompts/new_chat","textarea[aria-label='Type something']","pressKey","Control+Enter",".model button[aria-label='Open options'],span:contains('Copy text')","div.model","","",""
 "Gemini","https://gemini.google.com/","div.ql-editor","pressKey","Enter","button.more-menu-button,button[data-test-id='copy-button']","","","",""
