@@ -1,2 +1,2 @@
 name,url,selector,sendMode,enterKey,copySelectors,hoverCopySelectors,formCopySelector,clickSelector,selectorExists,clickSelectorExists
-"ChatGPT","https://chatgpt.com/","#prompt-textarea","pressKey","Enter","[data-testid='copy-turn-action-button']","","","","false","false"
+"ChatGPT","https://chatgpt.com/","#prompt-textarea","pressKey","Enter","[data-testid='copy-turn-action-button']","","","","❌","false"
