@@ -1,1 +1,16 @@
-
+name,url,selector,sendMode,enterKey,copySelectors,hoverCopySelectors,formCopySelector,clickSelector,selectorExists,clickSelectorExists
+"ChatGPT","https://chatgpt.com/","#prompt-textarea","pressKey","Enter","[data-testid='copy-turn-action-button']","","","","true","false"
+"ChatGPT","https://chatgpt.com/","#prompt-textarea","pressKey","Enter","[data-testid='copy-turn-action-button']","","","","true","false"
+"Google AI Studio","https://aistudio.google.com/prompts/new_chat","textarea[aria-label='Type something']","pressKey","Control+Enter",".model button[aria-label='Open options'],span:contains('Copy text')","div.model","","","true","false"
+"Gemini","https://gemini.google.com/","div.ql-editor","pressKey","Enter","button.more-menu-button,button[data-test-id='copy-button']","","","","true","false"
+"Microsoft Copilot","https://copilot.microsoft.com/","textarea#userInput","pressKey","Enter","button[data-testid='copy-message-button']","div[data-content='ai-message']","","","true","false"
+"Grok","https://grok.com/","textarea[dir='auto']","pressKey","Enter","div:nth-child(2) > .relative .inline-flex:nth-child(2)","","","","true","false"
+"ChatGPT","https://chatgpt.com/","#prompt-textarea","pressKey","Enter","[data-testid='copy-turn-action-button']","","","","true","false"
+"ChatGPT","https://chatgpt.com/","#prompt-textarea","pressKey","Enter","[data-testid='copy-turn-action-button']","","","","true","false"
+"ChatGPT","https://chatgpt.com/","#prompt-textarea","pressKey","Enter","[data-testid='copy-turn-action-button']","","","","true","false"
+"ChatGPT","https://chatgpt.com/","#prompt-textarea","pressKey","Enter","[data-testid='copy-turn-action-button']","","","","true","false"
+"ChatGPT","https://chatgpt.com/","#prompt-textarea","pressKey","Enter","[data-testid='copy-turn-action-button']","","","","true","false"
+"ChatGPT","https://chatgpt.com/","#prompt-textarea","pressKey","Enter","[data-testid='copy-turn-action-button']","","","","true","false"
+"ChatGPT","https://chatgpt.com/","#prompt-textarea","pressKey","Enter","[data-testid='copy-turn-action-button']","","","","true","false"
+"ChatGPT","https://chatgpt.com/","#prompt-textarea","pressKey","Enter","[data-testid='copy-turn-action-button']","","","","true","false"
+"ChatGPT","https://chatgpt.com/","#prompt-textarea","pressKey","Enter","[data-testid='copy-turn-action-button']","","","","true","false"
