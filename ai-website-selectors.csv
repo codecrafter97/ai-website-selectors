@@ -17,6 +17,7 @@ name,url,selector,sendMode,enterKey,copySelectors,hoverCopySelectors,formCopySel
 "Blackbox.ai","https://www.blackbox.ai/","textarea#chat-input-box","pressKey","Enter","button.w-8:nth-child(5)","","","","false","✅","⏩","['tier4', 'USA']"
 "Cerebras","https://inference.cerebras.ai/","textarea[data-testid='chat-textarea']","pressKey","Enter","svg[data-testid='copy-icon']","","","","false","✅","⏩","['tier5', 'USA']"
 "HuggingChat","https://huggingface.co/chat/","textarea[inputmode='text']","pressKey","Enter","button[title='Copy to clipboard']","div[data-message-role='assistant']","","","false","✅","⏩","['tier3', 'USA']"
+"Mercury Coder","https://chat.inceptionlabs.ai/","div#chat-input","pressKey","Enter","","","","","false","✅","⏩","['tier3', 'USA']"
 "deepseek","https://chat.deepseek.com/","textarea[id='chat-input']","pressKey","Enter","div.ds-flex > div.ds-flex > div:nth-child(1).ds-icon-button","","","","false","✅","⏩","['tier3', 'China']"
 "deepinfra","https://deepinfra.com/chat","textarea[aria-label='chatbot input prompt']","pressKey","Enter","","","","","false","✅","⏩","['tier4', 'USA']"
 "ChatOn","https://chat.chaton.ai/","textarea#message","pressKey","Enter",".flex:nth-child(2) > .flex > .copy > .icon-copy","","","","false","❌","⏩","['tier4']"
