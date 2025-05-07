@@ -13,7 +13,7 @@ DuckDuckGo,https://duckduckgo.com/aichat,textarea[name='user-prompt'],pressKey,E
 DeepAI,https://deepai.org/chat,textarea[class='chatbox'],pressKey,Enter,button.copytextButton:nth-child(1),,,,,false,✅,⏩,"tier4,USA"
 cloudflare,https://playground.ai.cloudflare.com/,textarea[placeholder='Enter a message...'],click,,,,li:nth-of-type(2) textarea,button.bg-ai-loop,,false,✅,✅,"tier3,USA"
 Pi,https://pi.ai/discover,textarea[enterkeyhint='enter'],pressKey,Enter,,,,,,false,❌,⏩,"tier3,USA"
-you.com,https://you.com/,textarea[name="user-prompt"],pressKey,Enter,button[data-testid='copy-button'],,,,,false,✅,⏩,"tier3,USA"
+you.com,https://you.com/,textarea[name='user-prompt'],pressKey,Enter,button[data-testid='copy-button'],,,,,false,✅,⏩,"tier3,USA"
 Blackbox.ai,https://www.blackbox.ai/,textarea#chat-input-box,pressKey,Enter,button.w-8:nth-child(5),,,,,false,✅,⏩,"tier4,USA"
 Cerebras,https://inference.cerebras.ai/,textarea[data-testid='chat-textarea'],pressKey,Enter,svg[data-testid='copy-icon'],,,,,false,✅,⏩,"tier5,USA"
 HuggingChat,https://huggingface.co/chat/,textarea[inputmode='text'],pressKey,Enter,button[title='Copy to clipboard'],div[data-message-role='assistant'],,,,false,✅,⏩,"tier3,USA"
