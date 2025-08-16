@@ -1,6 +1,6 @@
 name,url,selector,sendMode,enterKey,copySelectors,hoverCopySelectors,formCopySelector,clickSelector,systemPromptSelector,skipVerification,selectorExists,clickSelectorExists,tags
 ChatGPT,https://chatgpt.com/,#prompt-textarea,pressKey,Enter,[data-testid='copy-turn-action-button'],,,,,false,✅,⏩,"tier1,USA"
-Google AI Studio,https://aistudio.google.com/prompts/new_chat,ms-prompt-input-wrapper textarea,pressKey,Control+Enter,".model button[aria-label='Open options'],span:contains('Copy markdown')",div.model,,,"textarea[aria-label=""System instructions""]",false,❌,⏩,"tier2,USA,Google"
+Google AI Studio,https://aistudio.google.com/prompts/new_chat,ms-prompt-input-wrapper textarea,pressKey,Control+Enter,".model button[aria-label='Open options'],span:contains('Copy as markdown')",div.model,,,"textarea[aria-label=""System instructions""]",false,❌,⏩,"tier2,USA,Google"
 Gemini,https://gemini.google.com/,div.ql-editor,pressKey,Enter,"button.more-menu-button,button[data-test-id='copy-button']",,,,,false,✅,⏩,"tier1,USA,Google"
 Microsoft 365 Copilot,https://copilot.cloud.microsoft/,iframe[title='Copilot'] |> #m365-chat-editor-target-element,pressKey,Enter,iframe[title='Copilot'] |> span[data-automationid='splitbuttonprimary'],,,,,false,❌,⏩,"tier2,USA,Microsoft,Business"
 Microsoft Copilot,https://copilot.microsoft.com/,textarea#userInput,pressKey,Enter,button[data-testid='copy-message-button'],div[data-content='ai-message'],,,,false,❌,⏩,"tier1,USA,Microsoft"
@@ -27,3 +27,4 @@ kimi,https://kimi.moonshot.cn/,div[class='chat-input-editor'],pressKey,Enter,.se
 tongyi,https://tongyi.aliyun.com/,textarea.ant-input,pressKey,Enter,[*|href='#tongyi-copy-line'],,,,,false,❌,⏩,"tier4,China,Alibaba"
 ChatGLM,https://chatglm.cn/,textarea[slot='reference'],pressKey,Enter,,,,,,false,❌,⏩,"tier4,China"
 yiyan,https://yiyan.baidu.com/,div.yc-editor,pressKey,Enter,,,,,,false,✅,⏩,"tier4,China,Baidu"
+
