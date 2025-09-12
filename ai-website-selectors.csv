@@ -2,7 +2,7 @@ name,url,selector,sendMode,enterKey,copySelectors,hoverCopySelectors,formCopySel
 ChatGPT,https://chatgpt.com/,#prompt-textarea,pressKey,Enter,[data-testid='copy-turn-action-button'],,,,,false,✅,⏩,"tier1,USA"
 Google AI Studio,https://aistudio.google.com/prompts/new_chat,ms-prompt-input-wrapper textarea,pressKey,Control+Enter,".model button[aria-label='Open options'],span:contains('Copy as markdown')",div.model,,,"textarea[aria-label=""System instructions""]",false,❌,⏩,"tier2,USA,Google"
 Gemini,https://gemini.google.com/,div.ql-editor,pressKey,Enter,"button.more-menu-button,button[data-test-id='copy-button']",,,,,false,✅,⏩,"tier1,USA,Google"
-Microsoft 365 Copilot,https://copilot.cloud.microsoft/,.fai-EditorInput__input,pressKey,Enter,[data-testid="CopyButtonTestId"],,,,,false,❌,⏩,"tier2,USA,Microsoft,Business"
+Microsoft 365 Copilot,https://copilot.cloud.microsoft/,.fai-EditorInput__input,pressKey,Enter,[data-testid='CopyButtonTestId'],,,,,false,❌,⏩,"tier2,USA,Microsoft,Business"
 Microsoft Copilot,https://copilot.microsoft.com/,textarea#userInput,pressKey,Enter,button[data-testid='copy-message-button'],div[data-content='ai-message'],,,,false,❌,⏩,"tier1,USA,Microsoft"
 Grok,https://grok.com/,textarea[dir='auto'],pressKey,Enter,div:nth-child(2) > .relative .inline-flex:nth-child(2),,,,,false,✅,⏩,"tier3,USA"
 Claude,https://claude.ai/,div[contenteditable='true'],pressKey,Enter,svg[data-testid='action-bar-copy'],,,,,false,❌,⏩,"tier2,tier1,USA"
@@ -27,6 +27,7 @@ kimi,https://kimi.moonshot.cn/,div[class='chat-input-editor'],pressKey,Enter,.se
 tongyi,https://tongyi.aliyun.com/,textarea.ant-input,pressKey,Enter,[*|href='#tongyi-copy-line'],,,,,false,❌,⏩,"tier4,China,Alibaba"
 ChatGLM,https://chatglm.cn/,textarea[slot='reference'],pressKey,Enter,,,,,,false,❌,⏩,"tier4,China"
 yiyan,https://yiyan.baidu.com/,div.yc-editor,pressKey,Enter,,,,,,false,✅,⏩,"tier4,China,Baidu"
+
 
 
 
